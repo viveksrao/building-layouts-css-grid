@@ -1,6 +1,10 @@
 # Building Layouts with the CSS Grid 
 First you define a `grid` on a parent container by using the `display` property and setting the value to either `grid` or `inline-grid`. Next the rows and columns inside of it are referred to as child items and you define those rows and columns with `grid-template-rows` and `grid-template-columns` properties. The units you can use for these are fixed units such as Pixels (px) and flexible units such as  Percentages (%) or Fractions (fr). You can adjust the space between rows and columns by using these properties – `grid-column-gap`, `grid-row-gap` or the shorthand property `grid-gap`. Now for aligning grid items along the row axis you can use these 2 properties – `justify-items` which aligns all of the rows and `justify-self` which aligns a single row. For aligning grid items on the column axis we use the `align-items` and `align-self` properties. Now all 4 of these properties accept the same potential values of `start`, `end`, `center` and `stretch`. For the times in which you need to align the entire grid itself you use the `justify-content` property for aligning on the row axis and the `align-content` property to align the grid on the column axis. Both of these properties accept the same potential values of `start`, `end`, `center`, `stretch`, `space-between`, `space-around` and `space-evenly`.
 
+## Line-based Placement
+* `grid-column-start` and `grid-row-start` specify the line where the item begins
+* `grid-column-end` and `grid-row-end` specify the line where the item ends
+
 ## Grid Resources
 * [Grid by Example - Rachel Andrew](https://gridbyexample.com/)
 * [Intro to CSS Grid - Jen Simmons](http://labs.jensimmons.com/)
@@ -28,3 +32,25 @@ First you define a `grid` on a parent container by using the `display` property 
 * [The Difference Between Explicit and Implicit Grids](https://css-tricks.com/difference-explicit-implicit-grids/)
 * [grid-auto-rows - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-rows)
 * [grid-auto-columns - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-columns)
+* [CSS Grid Inspector: Examine grid layouts](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Examine_grid_layouts)
+* [Positioning items against lines](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout#Positioning_items_against_lines)
+* [grid-row-start - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row-start)
+* [grid-row-end - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row-end)
+* [grid-column-start - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-start)
+* [grid-column-end - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-end)
+* [Viewport-percentage lengths](https://developer.mozilla.org/en-US/docs/Web/CSS/length#Viewport-percentage_lengths)
+* [Counting backwards](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Line-based_Placement_with_CSS_Grid#Counting_backwards)
+* [grid-row - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row)
+* [grid-column - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column)
+* [Line-based placement with CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Line-based_Placement_with_CSS_Grid)
+* [CSS Grid Layout: The Span Keyword](https://alligator.io/css/css-grid-layout-span-keyword/)
+* [Seven Ways You Can Place Elements Using CSS Grid Layout](https://www.sitepoint.com/seven-ways-you-can-place-elements-using-css-grid-layout/)
+* [Grid Areas - MDN](https://developer.mozilla.org/en-US/docs/Glossary/Grid_areas)
+* [Grid template areas - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Grid_Template_Areas)
+* [grid-area - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-area)
+* [grid-template-areas - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas)
+* [Grid and flexbox - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout#Grid_and_flexbox)
+* [Does CSS Grid Replace Flexbox?](https://css-tricks.com/css-grid-replace-flexbox/)
+* [CSS Grid Layout - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
+* [Grid “fallbacks” and overrides](https://rachelandrew.co.uk/css/cheatsheets/grid-fallbacks)
+* [Two different ways you could write fallbacks for CSS Grid](https://codepen.io/Guilh/pen/061fd355c152b1f2ddc57eec142c0d67)

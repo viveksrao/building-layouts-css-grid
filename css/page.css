@@ -30,3 +30,24 @@ body{
 .item:nth-child(even){
   background: #a5cee9;
 }
+.container > *{
+  color: #FFF;
+  text-shadow: 0 2px 0 rgba(110,133,156,0.12);
+  padding: 0.85em;
+  border: solid 1px rgba(110,133,156,0.15);
+}
+header{
+  background-color: #3F8ABF;
+}
+nav{
+  background-color: #FBAEA8;
+}
+main{
+  background-color: #AAD2ED;
+}
+aside{
+  background-color: #6AD78A;
+}
+footer{
+  background-color: #6E859C;
+}
