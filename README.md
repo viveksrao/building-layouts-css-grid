@@ -1,2 +1,30 @@
 # Building Layouts with the CSS Grid 
 First you define a `grid` on a parent container by using the `display` property and setting the value to either `grid` or `inline-grid`. Next the rows and columns inside of it are referred to as child items and you define those rows and columns with `grid-template-rows` and `grid-template-columns` properties. The units you can use for these are fixed units such as Pixels (px) and flexible units such as  Percentages (%) or Fractions (fr). You can adjust the space between rows and columns by using these properties – `grid-column-gap`, `grid-row-gap` or the shorthand property `grid-gap`. Now for aligning grid items along the row axis you can use these 2 properties – `justify-items` which aligns all of the rows and `justify-self` which aligns a single row. For aligning grid items on the column axis we use the `align-items` and `align-self` properties. Now all 4 of these properties accept the same potential values of `start`, `end`, `center` and `stretch`. For the times in which you need to align the entire grid itself you use the `justify-content` property for aligning on the row axis and the `align-content` property to align the grid on the column axis. Both of these properties accept the same potential values of `start`, `end`, `center`, `stretch`, `space-between`, `space-around` and `space-evenly`.
+
+## Grid Resources
+* [Grid by Example - Rachel Andrew](https://gridbyexample.com/)
+* [Intro to CSS Grid - Jen Simmons](http://labs.jensimmons.com/)
+* [CSS Grid Layout - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
+* [Relationship of grid layout to other layout methods](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout)
+* Follow [Jen Simmons](https://twitter.com/jensimmons) and [Rachel Andrew](https://twitter.com/rachelandrew) for more resources about Grid Layout
+* [The Grid container - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout#The_Grid_container)
+* [Grid lines - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout#Grid_Lines)
+* [Basic concepts of grid layout - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
+* [Grid tracks - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout#Grid_Tracks)
+* [Grid - MDN](https://developer.mozilla.org/en-US/docs/Glossary/Grid)
+* [grid-template-columns - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns)
+* [grid-template-rows - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows)
+* [Anonymous grid items - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Auto-placement_in_CSS_Grid_Layout#Anonymous_grid_items)
+* [grid-row-gap - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row-gap)
+* [grid-column-gap - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-gap)
+* [grid-gap - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-gap)
+* [The fr unit - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout#The_fr_Unit)
+* [An Introduction to the fr CSS unit](https://css-tricks.com/introduction-fr-css-unit/)
+* [Track listings with repeat() notation - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout#Track_listings_with_repeat()_notation)
+* [repeat() - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/repeat)
+* [Track sizing and minmax() - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout#Track_sizing_and_minmax())
+* [minmax() - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/minmax)
+* [The implicit and explicit grid - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout#The_implicit_and_explicit_grid)
+* [The Difference Between Explicit and Implicit Grids](https://css-tricks.com/difference-explicit-implicit-grids/)
+* [grid-auto-rows - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-rows)
+* [grid-auto-columns - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-columns)
